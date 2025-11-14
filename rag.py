@@ -32,7 +32,7 @@ def load_all_documents(folder_path: str):
 st.title("🦙 LangChain RAG App with LLAMA2")
 st.write("Load unstructured files → Embed → Store in Chroma → Ask Questions to Llama2")
 
-data_path = r"C:\Users\ext-Dakshak\Documents\chatproj\pdf"
+data_path = r"C:ur path"
 
 query = st.text_input("🔍 Ask your question:")
 
@@ -83,3 +83,4 @@ if st.button("Run RAG"):
             response = llm.invoke(prompt)
             st.subheader(" LLM Response:")
             st.success(response)
+
